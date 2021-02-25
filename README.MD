@@ -5,8 +5,9 @@ This repository contains the python scripts used in our [paper](https://arxiv.or
 Overview
 --------
 In this work, we propose an unsupervised generative model that can learn a low-dimensional representation among the observations in a latent space, while making use of all available data in a heterogeneous data setting with missing values. We improve upon the existing Gaussian process latent variable model (GPLVM) by incorporating multiple likelihoods and deep neural network parameterised back-constraints to create a non-linear dimensionality reduction technique for heterogeneous data. In addition, we develop a variational inference method for our model that uses numerical quadrature.<br/><br/><br/>
-![Model overview. Each point in the image corresponds to an observation comprising of measurements from different likelihoods, that has been projected on to a two dimensional latent space. The colour coding in the latent space would correspond to cluster membership.](./images/overview_sample.png)
+![Model overview.](./images/overview_sample.png)
 <br/><br/>
+Each point in the above image corresponds to an observation comprising of measurements from different likelihoods, that has been projected on to a two dimensional latent space. The colour coding in the latent space would correspond to cluster membership.
 
 Prerequisites
 ---------------
