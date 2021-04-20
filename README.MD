@@ -1,6 +1,6 @@
 Latent Gaussian process with composite likelihoods and numerical quadrature
 ===========================================================================================
-This repository contains the python scripts used in our [paper](https://arxiv.org/abs/1909.01614) published in the Proceedings of the 24th International Conference on Artificial Intelligence and Statistics (AISTATS) 2021, San Diego, California, USA.
+This repository contains the python scripts used in our [paper](http://proceedings.mlr.press/v130/ramchandran21a.html) published in the Proceedings of the 24th International Conference on Artificial Intelligence and Statistics (AISTATS) 2021, San Diego, California, USA.
 
 Overview
 --------
@@ -8,6 +8,10 @@ In this work, we propose an unsupervised generative model that can learn a low-d
 ![Model overview.](./images/overview_sample.png)
 <br/><br/>
 Each point in the above image corresponds to an observation comprising of measurements from different likelihoods, that has been projected on to a two dimensional latent space. The colour coding in the latent space would correspond to cluster membership.
+
+Poster
+------
+![Poster.](./images/poster_latent-GP.png)
 
 Prerequisites
 ---------------
